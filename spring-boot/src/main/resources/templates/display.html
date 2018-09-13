@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1"/>
+<title>Results</title>
+</head>
+<body>
+	<center>
+	<fieldset>
+		<p th:text="'Hello, '  + ${firstName} + ' ' + ${lastName} + '!'"/>
+		<p th:text="'Your current age is ' + ${age} + '.'"/>
+		<p> Have a nice day! </p>
+		<p><a href="/">Go back</a></p>
+	</fieldset>
+	</center>
+</body>
+</html>
